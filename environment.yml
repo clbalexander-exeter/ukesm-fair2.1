@@ -1,25 +1,23 @@
-# name: template-jupyter-project
+name: ukesm-fair2.1
 channels:
-  - chrisroadmap
   - conda-forge
   - defaults
 dependencies:
-  - climateforcing
   - jupyter
   - nbstripout
 # you might also want:
 #   - fair
 #   - h5py
 #   - iris
-#   - matplotlib
-#   - numpy
+  - matplotlib
+  - numpy
 #   - openpyxl
 #   - pandas
-#   - scipy
+  - scipy
 #   - seaborn
 #   - statsmodels
-#   - tqdm
+  - tqdm
 # if you need to pip install anything:
-#   - pip
-#   - pip:
-#     - thing-to-pip-install
+  - pip
+  - pip:
+    - -e ../fair2.1-calibrate
