@@ -1,23 +1,12 @@
 name: ukesm-fair2.1
 channels:
   - conda-forge
-  - defaults
+  - chrisroadmap
 dependencies:
   - jupyter
+  - fair==2.1.0
   - nbstripout
-# you might also want:
-#   - fair
-#   - h5py
-#   - iris
   - matplotlib
   - numpy
-#   - openpyxl
-#   - pandas
   - scipy
-#   - seaborn
-#   - statsmodels
   - tqdm
-# if you need to pip install anything:
-  - pip
-  - pip:
-    - -e ../fair2.1-calibrate
