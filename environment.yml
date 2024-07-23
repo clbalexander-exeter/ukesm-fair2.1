@@ -1,10 +1,9 @@
 name: ukesm-fair2.1
 channels:
   - conda-forge
-  - chrisroadmap
 dependencies:
   - jupyter
-  - fair==2.1.0
+  - fair==2.2.0
   - nbstripout
   - matplotlib
   - numpy
