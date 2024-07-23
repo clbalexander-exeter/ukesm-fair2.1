@@ -4,8 +4,9 @@ channels:
 dependencies:
   - jupyter
   - fair==2.1.4
-  - nbstripout
   - matplotlib
+  - nbstripout
+  - netcdf4
   - numpy
   - scipy
   - tqdm
