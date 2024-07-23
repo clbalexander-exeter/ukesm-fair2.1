@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - jupyter
-  - fair==2.2.0
+  - fair==2.1.4
   - nbstripout
   - matplotlib
   - numpy
